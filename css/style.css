@@ -1,0 +1,242 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden !important;
+}
+
+.nav-link {
+    color: #444 !important;
+    padding-right: 30px !important;
+}
+
+.navbar{
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: #F18120 !important;
+}
+
+.navbar-expand-lg {
+    box-shadow: rgba(0, 0, 0, 0.092) 1.95px 1.95px 2.6px;
+}
+
+.search {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 15px;
+    width: 70% !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 330px !important;
+    position: absolute;
+    z-index: 10 !important;
+    top: 50 !important;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn {
+    background-color: #F18120;
+    border: none;
+    border-radius: 9999px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.2s all;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#btn:hover {
+    background-color: #ff9a41;
+
+}
+
+.form-control {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: 40% !important;
+}
+
+#gray {
+    font-size: 1.3rem;
+    color: #6d6d6d;
+    margin-bottom: 50px !important;
+
+}
+
+#pics img {
+    margin-bottom: 20px;
+}
+
+#pics h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#pics h5 {
+    font-size: 17px;
+    color: #6d6d6d;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#pics {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Carousel*/
+
+#carsel {
+    position: absolute;
+    margin-top: 20px;
+}
+
+#carsel button {
+    border-radius: 50% !important;
+    width: 15px !important;
+    height: 15px !important;
+    background-color: #676767;
+}
+
+#carsel button:focus {
+    background-color: gray !important;
+}
+
+#hrr {
+    margin-top: 90px;
+    margin-bottom: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.slider img {
+    border-radius: 5px !important;
+    transition: 0.5s all;
+  /*box-shadow: rgba(60, 64, 67, 0.103) 0px 1px 2px 0px, rgba(60, 64, 67, 0.103) 0px 2px 6px 2px;*/  
+
+}
+
+
+
+.slider img:hover {
+    cursor: grab;
+    transform: scale(1.03);
+    border-radius: 15px
+}
+
+.slider {
+
+    height: 60%;
+    padding: 10px;
+}
+
+element {
+    background-image: url("/Content/img/slider-bg-02.jpg");
+    background-attachment: fixed;
+}
+
+.parallax{
+    height: 55%;
+}
+
+.text-content{
+    background-repeat: no-repeat;
+}
+
+#pad{
+    margin-left: 30px;
+}
+
+#gray-2{
+    color: #6d6d6d;
+}
+
+#spn{
+    font-weight: 700;
+    color: #ff9a41;
+    cursor: pointer;
+}
+
+#ii{
+    color: rgb(175, 175, 175);
+    transition: 0.3s all;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#ii:hover{
+    transform: translateY(-4px);
+    color: #F18120;
+    
+}
+
+
+#form-mine{
+    width: 100% !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+
+}
+
+#icons-tab{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+#icons-tab a{
+    font-size: 25px;
+    margin: 30px;
+    color: #F18120;
+    transition: 0.3s all;
+}
+#icons-tab a:hover{
+    font-size: 25px;
+    margin: 30px;
+    color: #d1690d;
+}
+
+#form-signup{
+    width: 100% !important;
+    background-color: #F18120;
+    border: none !important;
+    transition: 0.2s all;
+}
+#form-signup:hover{
+    background-color: #d1690d;
+}
+
+.modal-header{
+    direction: rtl !important;
+}
+
+.close{
+    background-color: #F18120;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    width: 20px;
+    height: 20px;
+    transition: 0.2s all;
+}
+
+.close:hover{
+    background-color: #d1690d;
+}
+
+input[type="date"]{
+    background-color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
