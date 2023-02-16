@@ -81,5 +81,7 @@ $('.slider ').slick({
 
     
   ]
-});
+}); // Slider
 
+
+$('#date').val(new Date().toJSON().slice(0, 10));    // To get date and put it automatically in the date input

@@ -145,7 +145,7 @@ element {
     background-attachment: fixed;
 }
 
-.parallax{
+.car{
     height: 55%;
 }
 
@@ -235,7 +235,9 @@ element {
 
 input[type="date"]{
     background-color: white;
-    font-size: 15px;
+
+    font-size: 11px;
+    font-weight: 700;
     border: none;
     outline: none;
     border-radius: 5px;

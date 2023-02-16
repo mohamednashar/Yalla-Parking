@@ -20,13 +20,12 @@
 
 
 
-  <title>Yalla Parking</title>
+<title>Yalla Parking</title>
 </head>
 
 <body>
 
-
-
+  <!--Modal-->
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -69,13 +68,10 @@
       </div>
     </div>
   </div>
+  
 
 
-
-
-
-
-  <nav class="navbar navbar-expand-lg mynav md-sticky-top">
+  <nav class="navbar navbar-expand-lg mynav md-sticky-top">  <!--Navbar-->
     <div class="container-fluid">
       <a class="navbar-brand ms-5 me-5" href="#">
         <img src="images/logo.png" alt="logo" class="logo" style="width: 143px;height: 50px;">
@@ -108,14 +104,14 @@
     </div>
   </nav>
 
-  <div id="map">
+  <div id="map">  <!--Map-->
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7290570.403276558!2d26.381701503871138!3d26.844760060671774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14368976c35c36e9%3A0x2c45a00925c4c444!2sEgypt!5e0!3m2!1sen!2seg!4v1676380045355!5m2!1sen!2seg"
       width="100%" height="70%" style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 
-  <div class="container">
+  <div class="container">  <!--Search Bar-->
 
     <form class="d-flex search rounded-5 justify-content-between p-2">
       <input class="form-control me-1 rounded-5" type="search" placeholder="Select Park Location" aria-label="Search">
@@ -129,12 +125,12 @@
   </div>
 
 
-  <section class=".d-flex text-center mt-5">
+  <section class=".d-flex text-center mt-5">   <!--Section 1-->
     <h2 class="p-1">Don't waste your time looking for a place to park</h1>
       <h5 id="gray" class="mb-5">Search our listings and find the perfect spot near your home or office.</h5>
   </section>
 
-  <div class="container ">
+  <div class="container ">                     <!--3 Pics-->
     <div id="pics" class="row">
       <div class="1 col-lg-4 text-center">
         <img width="200px" src="https://www.yallaparking.com/Content/img/mapIllustration@2x.png" alt="">
@@ -157,13 +153,13 @@
 
   </div>
 
-  <section class=".d-flex text-center mt-5">
+  <section class=".d-flex text-center mt-5">   <!--Section 2-->
     <h2 class="p-1">Our Parking Partners </h1>
       <h5 id="gray" class="mb-5">We are proudly partnered with the following companies</h5>
   </section>
 
 
-  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">    <!--Carousel-->
     <div class="carousel-indicators ">
       <div id="carsel">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -195,16 +191,16 @@
 
   </div>
 
-  <hr id="hrr">
+  <hr id="hrr">  <!--gray Line-->
 
-  <section class=".d-flex text-center mt-5">
+  <section class=".d-flex text-center mt-5">                             <!--Slider Text-->
     <h2 class="p-1"> Popular Places in Dubai </h1>
       <h5 id="gray" class="mb-5">Dubai Parking Hot Spots</h5>
   </section>
 
 
-
-  <div class="container mb-5">
+ 
+  <div class="container mb-5">                                           <!--Slider-->
     <ul class="slider">
       <li><img width="325" height="350" src="images/1.jpg" alt=""></li>
       <li><img width="325" height="350" src="images/2.jpg" alt=""></li>
@@ -215,9 +211,9 @@
     </ul>
   </div>
 
-  <div style="background-color: #e6e6e6;height:200px;"></div>
+  <div style="background-color: #e6e6e6;height:200px;"></div>          <!--Gray Background-->
 
-  <div class="container text-center mt-5">
+  <div class="container text-center mt-5">                               
     <h2 class="p-1 mb-5">As featured in</h2>
     <img class="mb-5" width="80%" src="images/inc.PNG" alt="">
 
@@ -255,7 +251,7 @@
 
 
 
-  <div class="parallax"
+  <div class="car"
     style="background-image: url(&quot;images/slider-bg-02.jpg&quot;); background-attachment: fixed; background-size: 1325.94px 837px; background-position: 50%;">
     <div class="text-content">
       <div class="container me-5">
@@ -272,6 +268,7 @@
       </div>
     </div>
   </div>
+   <!--Car-->
 
 
   <div class="container">
@@ -333,6 +330,7 @@
 
 
   </div>
+  <!--Footer-->
 
 
 
@@ -345,31 +343,21 @@
 
 
 
+  <!------------------------------------------------------------------------------------------------>
+                              <!--Some Links To Jquery And Bootstrap-->
 
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-
-
-
-
-
-
-
-
   <script src="js/main.js"></script>
   <script src="js/slick.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <script>
-    $('#date').val(new Date().toJSON().slice(0, 10));
-  </script>
+  <!------------------------------------------------------------------------------------------------>
 
-
-
-
+   <!--Firebase Code-->
   <script type="module">
     // Import the functions you need from the SDKs you need
     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
@@ -399,35 +387,6 @@
 
     var googleBtn=document.getElementById("gooogle");
     googleBtn.addEventListener('click', (e) => {
-        // signInWithRedirect(auth, provider);
-
-        // getRedirectResult(auth)
-        //     .then((result) => {
-        //         // This gives you a Google Access Token. You can use it to access Google APIs.
-        //         const credential = GoogleAuthProvider.credentialFromResult(result);
-        //         const token = credential.accessToken;
-        
-        //         // The signed-in user info.
-        //         const user = result.user;
-        
-        //         // name = displayName
-        //         // email = email
-        //         // photo = photoURL
-        
-        //         alert(user.displayName);
-        
-        //     }).catch((error) => {
-        //     // Handle Errors here.
-        //     const errorCode = error.code;
-        //     const errorMessage = error.message;
-        //     // The email of the user's account used.
-        //     const email = error.email;
-        //     // The AuthCredential type that was used.
-        //     const credential = GoogleAuthProvider.credentialFromError(error);
-        //     // ...
-        
-        //     alert(errorMessage);
-        // });
 
         signInWithPopup(auth, provider)
             .then((result) => {
@@ -455,18 +414,7 @@
     });
 
 
-
-
-
-  </script>
-
-
-
-
-
-
-
-
+  </script> 
 
 
 
