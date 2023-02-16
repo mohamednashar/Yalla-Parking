@@ -8,7 +8,7 @@ body {
     padding-right: 30px !important;
 }
 
-.navbar{
+.navbar {
     background-color: white;
     z-index: 100;
     width: 100%;
@@ -122,7 +122,7 @@ body {
 .slider img {
     border-radius: 5px !important;
     transition: 0.5s all;
-  /*box-shadow: rgba(60, 64, 67, 0.103) 0px 1px 2px 0px, rgba(60, 64, 67, 0.103) 0px 2px 6px 2px;*/  
+    /*box-shadow: rgba(60, 64, 67, 0.103) 0px 1px 2px 0px, rgba(60, 64, 67, 0.103) 0px 2px 6px 2px;*/
 
 }
 
@@ -145,81 +145,84 @@ element {
     background-attachment: fixed;
 }
 
-.car{
+.car {
     height: 55%;
 }
 
-.text-content{
+.text-content {
     background-repeat: no-repeat;
 }
 
-#pad{
+#pad {
     margin-left: 30px;
 }
 
-#gray-2{
+#gray-2 {
     color: #6d6d6d;
 }
 
-#spn{
+#spn {
     font-weight: 700;
     color: #ff9a41;
     cursor: pointer;
 }
 
-#ii{
+#ii {
     color: rgb(175, 175, 175);
     transition: 0.3s all;
     cursor: pointer;
     font-size: 18px;
 }
 
-#ii:hover{
+#ii:hover {
     transform: translateY(-4px);
     color: #F18120;
-    
+
 }
 
 
-#form-mine{
+#form-mine {
     width: 100% !important;
     padding: 10px !important;
     margin-bottom: 10px !important;
 
 }
 
-#icons-tab{
+#icons-tab {
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
-#icons-tab a{
+
+#icons-tab a {
     font-size: 25px;
     margin: 30px;
     color: #F18120;
     transition: 0.3s all;
 }
-#icons-tab a:hover{
+
+#icons-tab a:hover {
     font-size: 25px;
     margin: 30px;
     color: #d1690d;
 }
 
-#form-signup{
+#form-signup {
     width: 100% !important;
     background-color: #F18120;
     border: none !important;
     transition: 0.2s all;
 }
-#form-signup:hover{
+
+#form-signup:hover {
     background-color: #d1690d;
 }
 
-.modal-header{
+.modal-header {
     direction: rtl !important;
 }
 
-.close{
+.close {
     background-color: #F18120;
     color: white;
     border-radius: 50%;
@@ -229,11 +232,11 @@ element {
     transition: 0.2s all;
 }
 
-.close:hover{
+.close:hover {
     background-color: #d1690d;
 }
 
-input[type="date"]{
+input[type="date"] {
     background-color: white;
 
     font-size: 11px;
@@ -241,4 +244,27 @@ input[type="date"]{
     border: none;
     outline: none;
     border-radius: 5px;
+}
+
+
+.up {
+    position: fixed;
+    bottom: 60px;
+    left: -200px;
+    background-color: #F18120;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.up:hover {
+    background-color: #d1690d;
+}
+
+.up.show {
+    left: 30px;
 }

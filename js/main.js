@@ -85,3 +85,19 @@ $('.slider ').slick({
 
 
 $('#date').val(new Date().toJSON().slice(0, 10));    // To get date and put it automatically in the date input
+
+
+
+let span = document.querySelector(".up");
+
+window.onscroll = function () {  
+
+  this.scrollY >= 1000 ? span.classList.add("show") : span.classList.remove("show");
+};
+
+span.onclick = function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};   // ScrollUp Button
